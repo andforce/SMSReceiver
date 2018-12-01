@@ -19,6 +19,9 @@
 
 @implementation AppDelegate
 
+-(void)saveContext{
+    
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     _pushManager = [[ForumPushManager alloc] initWithNotificationCenterDelegate:self];
